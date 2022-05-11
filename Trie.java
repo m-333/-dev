@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
-
+// node düğüm oluşturma // node create 
 public class Trie {
 
     private TrieNode root;
@@ -37,7 +37,7 @@ public class Trie {
         }
 
     }
-
+// arama kısmı //Search 
     public List search(String pref) {
         if (pref == null || pref.isEmpty())
             return null;
